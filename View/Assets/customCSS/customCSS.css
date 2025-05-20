@@ -1,0 +1,26 @@
+﻿
+#footer1{
+    background: black;
+}
+#footer2 {
+    background: #333333;
+}
+.footerlinks{
+    color: white;
+    text-decoration:none;
+}
+.footerlinks:hover{
+    color: #e6221d;
+}
+.custom {
+    background-image: repeating-linear-gradient(315deg, rgba(0,0,0, 0) 0px, rgba(0,0,0, 0) 2px,transparent 2px, transparent 4px),linear-gradient(180deg, rgba(0,0,0, 0),rgb(18,18,18));
+}
+.app {
+    padding: 80px;
+    
+    background-image: url('../img/color drenching 101.jpg');
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}

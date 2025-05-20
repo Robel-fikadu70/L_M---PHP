@@ -1,0 +1,27 @@
+# Ignore OS junk
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore environment/config files
+.env
+config.php
+View/DBconn.php
+# Ignore vendor if using Composer
+/vendor/
+
+# Ignore database dumps
+*.sql
+
+# Ignore cache/session files
+cache/
+session/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore node_modules (if any frontend tools used)
+node_modules/
